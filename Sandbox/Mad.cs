@@ -21,12 +21,7 @@ namespace Sandbox
             _allergener = allergener;
         }
 
-        public void Info()
-        {
-            Console.WriteLine($"ID: {Id}, Navn: {Navn}, Pris: {Pris}, Allergener: {Allergener}");
-            Console.WriteLine();
-        }
-
+        
         #region properties
         public int Id
         {
